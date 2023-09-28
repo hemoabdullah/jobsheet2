@@ -8,6 +8,10 @@ import java.util.Scanner;
         numAttendance = input.nextInt();
         System.out.println("Input absence Number: ");
         numAbsence  = input.nextInt();
+        System.out.println("Input salary ");
+        salary = input.nextInt();
+        System.out.println("input salary deducation ");
+        salaryDeducation = input.nextInt();
         totalSalary=(numAttendance*salary)-(numAbsence*salaryDeducation);
         System.out.println("totalSalary: "+totalSalary);
     }
