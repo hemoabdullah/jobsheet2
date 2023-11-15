@@ -13,6 +13,7 @@ public class cinema12 {
 
     for (int i = 0; i < audience.length; i++){
     System.out.println("length of row "+ (i + 1) + ":" + audience[i].length);
+    }
     System.out.printf("%s \t %s\n", audience [0][0], audience [0][1]);
     System.out.printf("%s \t %s\n", audience [1][0], audience [1][1]);
     System.out.printf("%s \t %s\n", audience [2][0], audience [2][1]);
@@ -21,10 +22,10 @@ public class cinema12 {
     System.out.println("lenght of row:" + rowaudience.length);
     for (int i = 0; i < audience.length; i++) {
 
-    System.out.println("audience in the row: + (i + 1) + String.join(delimiter:");
+    System.out.println("audience in the row: " + (i + 1) + String.join("1") );
+    
+    }
+    }
+}
+    }
 
-    }
-    }
-}
-    }
-}
