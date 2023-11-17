@@ -13,11 +13,14 @@ public class nestedloop12 {
             }
             System.out.println();
         }
-        for (double[] cityTemps : temps) {
-            for (double temp : cityTemps) {
-                System.out.print(temp + " ");
+        for (int i = 0; i < temps.length; i++) {
+            double sum = 0;
+            for (int j = 0; j < temps[0].length; j++) {
+                sum += temps[i][j];
             }
-            System.out.println();
+            double average = sum / temps[0].length;
+            System.out.println("Average temperature for Kota ke-" + i + ": " + average);
         }
     }
 }
+
