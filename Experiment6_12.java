@@ -19,6 +19,3 @@ System.out.println("Area of the rectangle = " + L); vol = calculateVolume(t, p, 
 System.out.println("Volume of the rectangle = "+vol);
 }
 }
-
-
-
