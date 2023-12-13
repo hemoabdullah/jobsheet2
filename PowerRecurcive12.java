@@ -15,9 +15,9 @@ public class PowerRecurcive12 {
         int base = input.nextInt();
         System.out.print("Input Power Number: ");
         int power = input.nextInt();
-        
+
         System.out.print("Result of " + base + " power " + power + " = ");
         int result = calculatePower(base, power);
-        System.out.println(result + "!");
+        System.out.println( "\1 = " +result);
     }
 }
